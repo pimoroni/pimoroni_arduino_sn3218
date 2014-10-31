@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map For sn3218
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+update	KEYWORD2
+enable	KEYWORD2
+enable_leds	KEYWORD2
+disable	KEYWORD2
+reset	KEYWORD2
+set	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+sn3218 KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SN3218_CH_ALL LITERAL1
+SN3218_CH_00 LITERAL1
+SN3218_CH_01 LITERAL1
+SN3218_CH_02 LITERAL1
+SN3218_CH_03 LITERAL1
+SN3218_CH_04 LITERAL1
+SN3218_CH_05 LITERAL1
+SN3218_CH_06 LITERAL1
+SN3218_CH_07 LITERAL1
+SN3218_CH_08 LITERAL1
+SN3218_CH_09 LITERAL1
+SN3218_CH_10 LITERAL1
+SN3218_CH_11 LITERAL1
+SN3218_CH_12 LITERAL1
+SN3218_CH_13 LITERAL1
+SN3218_CH_14 LITERAL1
+SN3218_CH_15 LITERAL1
+SN3218_CH_16 LITERAL1
+SN3218_CH_17 LITERAL1
