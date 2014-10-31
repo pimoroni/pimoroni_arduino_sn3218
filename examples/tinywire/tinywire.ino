@@ -8,12 +8,24 @@ void setup()
   sn3218.enable_leds(SN3218_CH_ALL);
 }
 
+int brightness = 255;
+int direction = 0;
+
 void loop()
 {
-  int i;
-  for( i = 0; i < SN3218_NUM_CHANNELS; i++ ){
-    sn3218.set(i,255);
+  int channel;
+  for( channel = 0; channel < SN3218_NUM_CHANNELS; channel++ ){
+    sn3218.set(channel,brightness);
   }
   sn3218.update();
-  delay(500);
+  delay(5);
+  
+  if( direction ){
+    brightness++;
+  }else{
+    brightness--;
+  }
+  
+  if(brightness == 0){direction = 1;} 
+  if(brightness == 255){direction = 0;}
 }
