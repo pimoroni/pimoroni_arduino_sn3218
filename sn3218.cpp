@@ -60,7 +60,7 @@ void _sn3218::disable(){
 void _sn3218::enable_leds( unsigned long enable_mask ){
   this->writeReg(SN3218_CMD_ENABLE_LEDS, enable_mask & 0x3F);
   this->writeReg(SN3218_CMD_ENABLE_LEDS + 1, (enable_mask >> 6) & 0x3F);
-  this->writeReg(SN3218_CMD_ENABLE_LEDS + 1, (enable_mask >> 12) & 0x3F);
+  this->writeReg(SN3218_CMD_ENABLE_LEDS + 2, (enable_mask >> 12) & 0x3F);
   
   this->update();
 }
