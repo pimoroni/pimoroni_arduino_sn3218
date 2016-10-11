@@ -65,7 +65,7 @@ class _sn3218
     void reset();
     void set( unsigned char chan, unsigned char val );
  private:
-    void writeReg( unsigned char reg, unsigned char val );
+    virtual void writeReg( unsigned char reg, unsigned char val );
 };
 
 namespace { _sn3218 sn3218; }
